@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="542.0" prefWidth="440.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculeterr.FXMLDocumentController">
+   <children>
+      <Button fx:id="btn1" layoutX="24.0" layoutY="195.0" mnemonicParsing="false" onAction="#Btn1" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="1">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn3" layoutX="228.0" layoutY="195.0" mnemonicParsing="false" onAction="#Btn3" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="3">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn2" layoutX="126.0" layoutY="195.0" mnemonicParsing="false" onAction="#Btn2" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="2">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn4" layoutX="24.0" layoutY="263.0" mnemonicParsing="false" onAction="#Btn4" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="4">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn5" layoutX="126.0" layoutY="263.0" mnemonicParsing="false" onAction="#Btn5" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="5">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn6" layoutX="228.0" layoutY="263.0" mnemonicParsing="false" onAction="#Btn6" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="6">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn9" layoutX="228.0" layoutY="329.0" mnemonicParsing="false" onAction="#Btn9" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="9">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn8" layoutX="126.0" layoutY="329.0" mnemonicParsing="false" onAction="#Btn8" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="8">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn7" layoutX="24.0" layoutY="329.0" mnemonicParsing="false" onAction="#Btn7" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="7">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="multi" layoutX="335.0" layoutY="329.0" mnemonicParsing="false" onAction="#Multi" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="x">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="sub" layoutX="335.0" layoutY="263.0" mnemonicParsing="false" onAction="#Sub" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="-">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="plus" layoutX="335.0" layoutY="195.0" mnemonicParsing="false" onAction="#Plus" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="+">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="equal" layoutX="22.0" layoutY="456.0" mnemonicParsing="false" onAction="#Equal" prefHeight="47.0" prefWidth="290.0" style="-fx-background-color: #fff;" text="=">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="remainder" layoutX="228.0" layoutY="397.0" mnemonicParsing="false" onAction="#Remainder" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="\%">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="division" layoutX="335.0" layoutY="397.0" mnemonicParsing="false" onAction="#Division" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="÷">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn0" layoutX="24.0" layoutY="397.0" mnemonicParsing="false" onAction="#Btn0" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="integral" layoutX="126.0" layoutY="397.0" mnemonicParsing="false" onAction="#Integral" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="∫">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="textField" layoutX="23.0" layoutY="14.0" prefHeight="79.0" prefWidth="395.0">
+         <font>
+            <Font size="24.0" />
+         </font></TextField>
+      <Button fx:id="DEL" layoutX="335.0" layoutY="456.0" mnemonicParsing="false" onAction="#DELITE" prefHeight="47.0" prefWidth="84.0" style="-fx-background-color: #fff;" text="del">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <TextField fx:id="ANS" layoutX="23.0" layoutY="99.0" prefHeight="79.0" prefWidth="395.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </TextField>
+   </children>
+</AnchorPane>
